@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,80 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/fontawesome/css/all.min.css">
 </head>
+
 <body>
     <header>
-      <div class="container">
-        <div class="search">
-            <input type="text" placeholder="Search" class="header-search">
+        <div class="header-container">
+            <div class="search">
+                <input type="text" placeholder="Search" class="header-search">
+            </div>
+            <div class="navigation">
+                <nav>
+                    <ul class="header-list">
+                        <li class="profile"><img src="images/profile.png" alt=""> Mateusz</li>
+                        <li class="home"><a href="#">Home</a></li>
+                        <li class="create"><a href="#">Create</a></li>
+                        <li class="chng-color add-user chng-color"><i class="fal fa-users-medical"></i></li>
+                        <li class="chng-color message"><i class="far fa-comment-dots"></i></li>
+                        <li class="chng-color alarm"><i class="fal fa-bell"></i><span class="alarm-count">8</span></li>
+                        <li class="chng-color info"><i class="fal fa-info-circle"></i><i class="fas fa-caret-down"></i></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="navigation">
-            <nav>
-                <ul class="header-list">
-                    <li class="profile"><img src="images/profile.png" alt=""> Mateusz</li>
-                    <li class="home"><a href="#">Home</a></li>
-                    <li class="create"><a href="#">Create</a></li>
-                    <li class="chng-color add-user chng-color"><i class="fal fa-users-medical"></i></li>
-                    <li class="chng-color message"><i class="far fa-comment-dots"></i></li>
-                    <li class="chng-color alarm"><i class="fal fa-bell"></i><span class="alarm-count">8</span></li>
-                    <li class="chng-color info"><i class="fal fa-info-circle"></i><i class="fas fa-caret-down"></i></li>
-                </ul>
-            </nav>
-        </div>
-      </div>
     </header>
+    <main>
+        <div class="main-container">
+            <div class="left-sidebar">
+                <div class="main-profile">
+                    <img src="images/profile.png" alt=""> Mateusz Wierzbicki
+                </div>
+                <ul class="main-marketpace">
+                    <li><a href="#" class="active"><i class="fal fa-list-alt"></i>News Feed<i class="far fa-ellipsis-h"></i></a></li>
+                    <li><a href="#"><i class="far fa-comment-dots"></i>Messages</a></li>
+                    <li><a href="#"><i class="fal fa-hotel"></i>Marketplace</a></li>
+                </ul>
+                <ul class="shortcuts">
+                    <li class="shortcuts-title">Shortcuts</li>
+                    <li><a href="#"><i class="far fa-trophy"></i>Product Design</a></li>
+                    <li><a href="#"><i class="far fa-trophy"></i>UX & UI</a></li>
+                    <li><a href="#"><i class="far fa-trophy"></i>Figma</a></li>
+                    <li><a href="#"><i class="far fa-trophy"></i>Ant Design</a></li>
+                </ul>
+                <ul class="explore">
+                    <li class="explore-title">Explore</li>
+                    <li><a href="#"><i class="fal fa-flag"></i>Pages</a></li>
+                    <li><a href="#"><i class="fal fa-headphones-alt"></i>Groups</a></li>
+                    <li><a href="#"><i class="fal fa-home-lg-alt"></i>Events</a></li>
+                    <li><a href="#"><i class="fal fa-rocket"></i>Games</a></li>
+                    <li><a href="#" class="main-dropdown-link"><i class="fas fa-caret-down"></i>See more...</a></li>
+                </ul>
+            </div>
+            <div class="main-sidebar">
+                <div class="create-post">
+                    <p class="create-post-title">Create Post</p>
+                    <div class="your-review">
+                        <div class="your-mind">
+                            <img src="images/profile.png" alt="profile avatar">
+                            <div class="create-post__input" contenteditable="true">What’s on your mind, Mateusz?</div>
+                        </div>
+                    </div>
+                    <ul class="post-elements">
+                        <li><i class="fal fa-image"></i>Photo/Video</li>
+                        <li><i class="fal fa-user-plus"></i>Tag friends</li>
+                        <li><i class="fal fa-smile"></i>Feeling/Activ...</li>
+                        <li><i class="far fa-ellipsis-h"></i></li>
+                    </ul>
+                </div>
+                <div class="like-comment-share">
+                    
+                </div>
+            </div>
+            <div class="right-sidebar">
+
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
