@@ -209,6 +209,7 @@ main {
 .create-post{
     background: #fff;
     border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.089);
 }
 .create-post-title{
     padding: 13px 0 13px 16px;
@@ -266,6 +267,118 @@ main {
 }
 .post-elements li:last-child{
     margin: 0;
+}
+.like-comment-share{
+    background: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 19px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.089);
+}
+.user-activity{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.user-activity img{
+    width: 48px;
+    height: 48px;
+    margin-right: 13px;
+}
+.activity-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-activity-list a{
+    color: #0050B3;
+    font-size: 14px;
+    line-height: 22px;  
+    font-weight: 700;
+}
+.user-activity-list li{
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    display: flex;
+    align-items: center;
+}
+.user-activity-list li span{
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #8c8c8c;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+.comment__description{
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    margin-bottom: 31px;
+}
+.comment__link{
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    display: inline-block;
+    margin-bottom: 19px;
+}
+.comment__link span{
+    color: #1890FF;
+}
+.main__image-link{
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    margin: 13px 0;
+    color: #595959;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.main__image-link i{
+    color: #1890FF;
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 16px;
+}
+.share__list{
+    display: flex;
+    padding-top: 17px;
+    border-top: 2px solid #E8E8E8;
+    justify-content: space-between;
+}
+.share__list li a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    font-weight: 700;
+}
+.share__list li{
+    position: relative;
+}
+.share__list li a i{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.footer-items{
+    padding: 13px 16px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.089);
+}
+.footer__description{
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    font-weight: 500;
+    margin-bottom: 9px;
 }
 .right-sidebar {
     max-width: 384px;
