@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skying - социальнач сеть №1</title>
+    <title>Skying - социальная сеть №1</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/fontawesome/css/all.min.css">
 </head>
@@ -29,9 +29,15 @@
                     </ul>
                 </nav>
             </div>
+                <a class="btn-check"><i class="fa fa-bars"></i></a>
         </div>
     </header>
     <main>
+        <div class="absolute-buttons">
+            <a class="profile-button"><img src="images/profile.png" alt=""> Profile</a>
+            <a class="news-buton"><i class="fal fa-home-lg-alt"></i> News</a>
+        </div>
+       
         <div class="main-container">
             <div class="left-sidebar">
                 <div class="main-profile">
@@ -116,10 +122,72 @@
                 </div>
             </div>
             <div class="right-sidebar">
-
+                <div class="stories">
+                    <ul class="stories-settings">
+                        <li>Stories</li>
+                        <li><a href="#"><i class="fal fa-clock"></i>Archieve</a><span class="stories-span"></span><a href="#">Settings</a></li>
+                    </ul>
+                    <div class="add-stories">
+                        <div class="stories-img"><img src="images/plus.png" alt="add_story"></div>
+                        <ul class="add-stories__list">
+                            <li>Add to your story</li>
+                            <li>Share a photo or video or write something</li>
+                        </ul>
+                    </div>
+                    <div class="add-stories">
+                        <div class="stories-img"><img src="images/Ellipse.png" alt="add_story"></div>
+                        <ul class="add-stories__list">
+                            <li>Concuria</li>
+                            <li>4 hours ago</li>
+                        </ul>
+                    </div>
+                    <div class="add-stories">
+                        <div class="stories-img"><img src="images/figma blue.png" alt="add_story"></div>
+                        <ul class="add-stories__list">
+                            <li>Figma</li>
+                            <li>5 hours ago</li>
+                        </ul>
+                    </div>
+                    <div class="add-stories">
+                        <div class="stories-img"><img src="images/ant-design.png" alt="add_story"></div>
+                        <ul class="add-stories__list">
+                            <li>Ant design</li>
+                            <li>6 hours ago</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="right-dropdown-link"><i class="fas fa-caret-down"></i>See more...</a>
+                </div>
+                <div class="user-birthday">
+                    <p><i class="far fa-gift"></i><a href="#">John Doe</a>'s birthday is today</p>
+                </div>
+                <div class="your-page">
+                    <div class="yourpage-title">
+                        <h3>Your page</h3>
+                        <i class="far fa-ellipsis-h"></i>
+                    </div>
+                    <div class="notifications">
+                        <div class="notifications-img"><img src="images/concuria-page.png" alt=""></div>
+                        <ul class="notifications__list">
+                            <li><a href="#">Concuria</a></li>
+                            <li><a href="#"><i class="far fa-comment-dots"></i>Messages</a></li>
+                            <li><a href="#"><i class="fal fa-bell"></i>Notifications <span>1</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="likes__views">
+                        <div class="posts__views">
+                            <a href="#" class="active">Likes</a>
+                            <a href="#">Views</a>
+                            <a href="#">Posts</a>
+                        </div>
+                        <h3>262</h3>
+                        <p><span>5</span> likes this week</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+
+    <script src="scipt.js"></script>
 </body>
 
 </html>
